@@ -1,0 +1,68 @@
+{
+  "experiment_name": "fig4e_symmetry",
+  "timestamp": "20260111_114902",
+  "random_seed": 0,
+  "iters": 200,
+  "eta": 0.1,
+  "update_mode": "continuous",
+  "alpha": 0.05,
+  "delta": 0.01,
+  "rest_length_min": 0.5,
+  "rest_length_max": 2.5,
+  "stiffness": 1.0,
+  "edges": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "fixed_nodes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "node_positions_init": [
+    [
+      -1.0,
+      0.5
+    ],
+    [
+      1.0,
+      0.5
+    ],
+    [
+      1.0,
+      -0.5
+    ],
+    [
+      -1.0,
+      -0.5
+    ],
+    [
+      0.0,
+      0.2
+    ],
+    [
+      0.0,
+      -0.2
+    ]
+  ],
+  "git_commit": "081c3a953faeff91d92511412666300213b128db"
+}

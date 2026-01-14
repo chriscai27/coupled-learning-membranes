@@ -13,7 +13,7 @@ import numpy as np
 from scipy.optimize import minimize
 from typing import List, Tuple, Dict
 
-from .backends import PhysicsBackend
+from ..base import PhysicsBackend
 
 
 # =============================================================================

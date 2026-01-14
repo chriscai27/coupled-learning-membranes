@@ -1,0 +1,14 @@
+{
+  "target_patch": [
+    0,
+    0
+  ],
+  "target_height_mm": 0.3,
+  "n_patches": 2,
+  "pressure_psi": 5.0,
+  "eta": 0.3,
+  "alpha": 100.0,
+  "n_iters": 100,
+  "seed": 42,
+  "final_error_mm": 0.014174580991272168
+}

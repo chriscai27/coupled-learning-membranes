@@ -1,0 +1,54 @@
+{
+  "experiment_name": "motion_divider",
+  "timestamp": "20260111_114842",
+  "random_seed": 0,
+  "iters": 200,
+  "eta": 1.0,
+  "threshold": 0.01,
+  "alpha_scale": 1.0,
+  "quantize_step": null,
+  "trials": [
+    {
+      "label": "a",
+      "a": 2.0,
+      "alpha": 0.16
+    },
+    {
+      "label": "b",
+      "a": -1.0,
+      "alpha": 0.32
+    },
+    {
+      "label": "c",
+      "a": 0.7,
+      "alpha": 0.48
+    },
+    {
+      "label": "d",
+      "a": -1.2,
+      "alpha": 0.4
+    }
+  ],
+  "targets": [
+    15.75,
+    12.75,
+    14.45,
+    12.55
+  ],
+  "L_base_cm": 13.75,
+  "fixed_nodes": [
+    0,
+    2
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "git_commit": "081c3a953faeff91d92511412666300213b128db"
+}

@@ -1,0 +1,33 @@
+{
+  "backend": "MembranePDEBackend (Tier1)",
+  "targets": {
+    "1,1": 0.5
+  },
+  "target_patches": [
+    [
+      1,
+      1
+    ]
+  ],
+  "target_heights_mm": [
+    0.5
+  ],
+  "n_patches": 3,
+  "pressure_psi": 5.0,
+  "patch_size_mm": 2.0,
+  "thickness_mm": 1.0,
+  "mesh_refinement": 4,
+  "E_min_mpa": 0.6,
+  "E_max_mpa": 381.7,
+  "eta": 1.0,
+  "alpha": 0.2,
+  "n_iters": 20,
+  "seed": 0,
+  "threshold": 0.01,
+  "final_error_mm": 0.4998808105197005,
+  "target_patch": [
+    1,
+    1
+  ],
+  "target_height_mm": 0.5
+}

@@ -1,0 +1,35 @@
+{
+  "target_patch": [
+    0,
+    0
+  ],
+  "target_height_mm": 2.0,
+  "target_patches": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "target_heights_mm": [
+    2.0,
+    1.5
+  ],
+  "n_patches": 3,
+  "pressure_psi": 5.0,
+  "patch_size_mm": 2.0,
+  "thickness_mm": 1.0,
+  "mesh_refinement": 4,
+  "E_min_mpa": 0.6,
+  "E_max_mpa": 12.0,
+  "eta": 0.3,
+  "alpha": 100.0,
+  "n_iters": 100,
+  "seed": 42,
+  "threshold": 0.01,
+  "error_metric": "max_abs",
+  "final_error_mm": 1.5795677506410797
+}
